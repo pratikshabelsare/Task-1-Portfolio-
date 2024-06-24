@@ -1,0 +1,170 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: mediumvioletred;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 10px 0 0;
+}
+
+#about,
+#skills,
+#projects,
+#resume,
+#contact {
+  padding: 50px 0;
+}
+
+#about img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.project {
+  margin-bottom: 50px;
+}
+
+.project img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+footer {
+  background-color: mediumvioletred;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.progress {
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #4CAF50;
+  transition: width 2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.progress-bar.html {
+  animation: html-progress 2s;
+}
+
+.progress-bar.css {
+  animation: css-progress 2s;
+}
+
+.progress-bar.js {
+  animation: js-progress 2s;
+}
+
+@keyframes html-progress {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes css-progress {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 85%;
+  }
+}
+
+@keyframes js-progress {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 80%;
+  }
+}
+
+.about-content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.about-content p {
+  margin-bottom: 15px;
+}
+
+.progress-bar.web-tech {
+  background-color: #3498db;
+}
+
+.progress-bar.cloud {
+  background-color: #9b59b6;
+}
+
+.progress-bar.js {
+  background-color: gold;
+}
+
+.progress-bar.css {
+  background-color: turquoise;
+}
+
+.progress-bar.html {
+  background-color: indianred;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+h2 {
+  display: block;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  font-size: 30px;
+}
